@@ -29,7 +29,7 @@ footer a:hover{
 color:black;
 }
 .Intro {
-    background-image: url('../images/coffee.jpeg'); /* Use url() to specify the image path */
+    background-image: url(../images/coffee.jpeg); /* Use url() to specify the image path */
     background-size:cover; /* Adjust as needed */
     padding: 280px;
     font-family: 'Libre Baskerville', serif;
