@@ -146,7 +146,7 @@ hr{
     color: #5C4033;
 }
 .Contact{
-    background-image: url('/images/coffee.jpeg'); 
+    background-image: url('../images/coffee.jpeg'); 
     background-size:cover; 
     padding: 280px;
     font-family: 'Libre Baskerville', serif;
