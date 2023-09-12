@@ -1,0 +1,203 @@
+body{
+    margin:0;
+    text-align: center;
+    background-color:#c8A28f;
+}
+nav{
+    display:flex;
+    justify-content:right ;
+    background-color:#683b2b ;
+    color:grey;
+}
+nav a:hover{
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    background-color:#683b2b ;
+    color:grey;
+
+}
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover{
+color:black;
+}
+.Intro {
+    background-image: url('/images/coffee.jpeg'); /* Use url() to specify the image path */
+    background-size:cover; /* Adjust as needed */
+    padding: 280px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.Intro img.coffeecode {
+    position: absolute;
+    border-style:dotted;
+    border: 5px solid #5C4033;
+    top: 05%;
+    left: 0%;
+}
+.Intro img.coffeeicon {
+    position: absolute;
+    border-style: dotted;
+    border: 2px solid #5C4033;
+    opacity: .5;
+    top: 06%;
+    left :96%;
+}
+
+
+.Images{
+padding: 5px;
+font-family: 'Oswald', sans-serif;
+color: #5C4033;
+font-size: 20px;
+}
+
+.AboutMe{
+background-color: #faf6f2;
+padding: 5px;
+font-family: 'Playfair Display', serif;
+color:#bc9e82;
+font-size: 16px;
+}
+a{
+    color:#d49e8d;
+    text-decoration: none;
+}
+a:hover{
+    color:#b08401
+}
+hr{
+    color:#5C4033;
+    border-style: dashed;
+    border-radius: 20px;
+}
+
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust the gap between cards as needed */
+  }
+  
+  .card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    text-align: center; 
+  }
+  .leadership   {
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 5px; 
+    
+  }
+  
+  .leadership dt {
+    grid-column: 1; 
+  }
+  
+  .leadership dd {
+    grid-column: 2; 
+    margin: 0;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 10px; 
+    text-align: center;
+   
+}
+
+.skills dl {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 5px; 
+    text-align: center;
+   
+}
+
+.skills dt {
+    grid-column: 1; 
+}
+.skills dd {
+    grid-column: 2; 
+    margin: 0; 
+}
+.one-col {
+    max-width: 700px; 
+    max-height: 700px;
+    margin: auto;
+    padding: 200px;
+    background-color: #b69271; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px white; 
+    color: #5C4033;
+}
+.Contact{
+    background-image: url('/images/coffee.jpeg'); 
+    background-size:cover; 
+    padding: 280px;
+    font-family: 'Libre Baskerville', serif;
+    color: whitesmoke;
+}
+
+.one-col .card form {
+    max-width: 500px; 
+    margin: 0 auto; 
+  }
+  
+  
+  .one-col .card form label {
+    font-weight: bold; 
+    display: block; 
+    margin-bottom: 5px; 
+  }
+  
+  
+  .one-col .card form input,
+  .one-col .card form textarea {
+    width: calc(100% - 22px); 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    font-size: 16px; 
+  }
+  
+  /* Style the submit button */
+  .one-col .card form input[type="submit"] {
+    background-color: #5C4033; 
+    color: white; 
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 4px; 
+    font-size: 16px; 
+  }
+  
+ 
+ 
+  
+
+
+  
+  
+
+  
+  
+
+  
+ 
+  
